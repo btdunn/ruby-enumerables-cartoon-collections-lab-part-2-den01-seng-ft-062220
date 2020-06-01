@@ -11,7 +11,7 @@ def summon_captain_planet(planeteer_calls)
   # Return a new array of the results
   newarr = []
   planeteer_calls.map do |names|
-    puts "#{names.capitalize}!"
+    newarr << "#{names.capitalize}!"
   end
 end
 
