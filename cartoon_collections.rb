@@ -11,7 +11,8 @@ def summon_captain_planet(planeteer_calls)
   # Return a new array of the results
   newarr = []
   planeteer_calls.map do |names|
-    names.
+    puts "#{names.capitalize}!"
+  end
 end
 
 def long_planeteer_calls(planeteer_calls)
